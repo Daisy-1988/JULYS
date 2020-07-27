@@ -15,6 +15,9 @@
 		A3E12B9324CB203B00EF15BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E12B9124CB203B00EF15BB /* LaunchScreen.storyboard */; };
 		A3E12B9E24CB203C00EF15BB /* JULYSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E12B9D24CB203C00EF15BB /* JULYSTests.swift */; };
 		A3E12BA924CB203C00EF15BB /* JULYSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E12BA824CB203C00EF15BB /* JULYSUITests.swift */; };
+		A3E12BBD24CB24D500EF15BB /* FIRST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E12BBC24CB24D500EF15BB /* FIRST.storyboard */; };
+		A3E12BBF24CB289300EF15BB /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E12BBE24CB289300EF15BB /* jf-openhuninn-1.1.ttf */; };
+		A3E12BC124CB2EB800EF15BB /* SECOND.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E12BC024CB2EB800EF15BB /* SECOND.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A3E12BA424CB203C00EF15BB /* JULYSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JULYSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E12BA824CB203C00EF15BB /* JULYSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JULYSUITests.swift; sourceTree = "<group>"; };
 		A3E12BAA24CB203C00EF15BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E12BBC24CB24D500EF15BB /* FIRST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FIRST.storyboard; sourceTree = "<group>"; };
+		A3E12BBE24CB289300EF15BB /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "jf-openhuninn-1.1.ttf"; path = "../jf-openhuninn-1.1/jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		A3E12BC024CB2EB800EF15BB /* SECOND.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SECOND.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		A3E12B7A24CB203500EF15BB = {
 			isa = PBXGroup;
 			children = (
+				A3E12BBE24CB289300EF15BB /* jf-openhuninn-1.1.ttf */,
 				A3E12B8524CB203500EF15BB /* JULYS */,
 				A3E12B9C24CB203C00EF15BB /* JULYSTests */,
 				A3E12BA724CB203C00EF15BB /* JULYSUITests */,
@@ -99,6 +106,8 @@
 		A3E12B8524CB203500EF15BB /* JULYS */ = {
 			isa = PBXGroup;
 			children = (
+				A3E12BBC24CB24D500EF15BB /* FIRST.storyboard */,
+				A3E12BC024CB2EB800EF15BB /* SECOND.storyboard */,
 				A3E12B8624CB203500EF15BB /* AppDelegate.swift */,
 				A3E12B8824CB203500EF15BB /* SceneDelegate.swift */,
 				A3E12B8A24CB203500EF15BB /* ViewController.swift */,
@@ -231,9 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E12BBF24CB289300EF15BB /* jf-openhuninn-1.1.ttf in Resources */,
 				A3E12B9324CB203B00EF15BB /* LaunchScreen.storyboard in Resources */,
+				A3E12BBD24CB24D500EF15BB /* FIRST.storyboard in Resources */,
 				A3E12B9024CB203B00EF15BB /* Assets.xcassets in Resources */,
 				A3E12B8E24CB203500EF15BB /* Main.storyboard in Resources */,
+				A3E12BC124CB2EB800EF15BB /* SECOND.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
